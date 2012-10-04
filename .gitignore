@@ -15,6 +15,7 @@ audio_stimuli
 
 .idea
 .project
+project.properties
 .settings
 .classpath
 proguard.cfg
