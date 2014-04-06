@@ -1,6 +1,6 @@
 package com.github.opensourcefieldlinguistics.fielddb.lessons.ui;
 
-import com.github.opensourcefieldlinguistics.fielddb.lessons.georgian.R;
+import com.github.opensourcefieldlinguistics.fielddb.lessons.R;
 
 import android.content.Intent;
 import android.os.Bundle;

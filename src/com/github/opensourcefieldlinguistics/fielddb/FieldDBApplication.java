@@ -18,7 +18,7 @@ import ca.ilanguage.oprime.database.UserContentProvider.UserTable;
 
 import com.github.opensourcefieldlinguistics.fielddb.database.FieldDBUserContentProvider;
 import com.github.opensourcefieldlinguistics.fielddb.lessons.Config;
-import com.github.opensourcefieldlinguistics.fielddb.lessons.georgian.R;
+import com.github.opensourcefieldlinguistics.fielddb.lessons.R;
 import com.github.opensourcefieldlinguistics.fielddb.service.DownloadDatumsService;
 import com.github.opensourcefieldlinguistics.fielddb.service.RegisterUserService;
 

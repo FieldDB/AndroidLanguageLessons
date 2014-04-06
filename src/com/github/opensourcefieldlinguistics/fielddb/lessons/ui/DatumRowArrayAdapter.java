@@ -2,7 +2,7 @@ package com.github.opensourcefieldlinguistics.fielddb.lessons.ui;
 
 import java.util.List;
 
-import com.github.opensourcefieldlinguistics.fielddb.lessons.georgian.R;
+import com.github.opensourcefieldlinguistics.fielddb.lessons.R;
 import com.github.opensourcefieldlinguistics.fielddb.model.Datum;
 
 import android.content.Context;

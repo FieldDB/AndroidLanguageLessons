@@ -14,7 +14,7 @@ import ca.ilanguage.oprime.datacollection.NotifyingIntentService;
 
 import com.github.opensourcefieldlinguistics.fielddb.database.FieldDBUserContentProvider;
 import com.github.opensourcefieldlinguistics.fielddb.lessons.Config;
-import com.github.opensourcefieldlinguistics.fielddb.lessons.georgian.R;
+import com.github.opensourcefieldlinguistics.fielddb.lessons.R;
 import com.google.gson.JsonObject;
 
 import android.app.NotificationManager;

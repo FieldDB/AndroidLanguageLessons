@@ -19,7 +19,7 @@ import com.github.opensourcefieldlinguistics.fielddb.database.DatumContentProvid
 import com.github.opensourcefieldlinguistics.fielddb.database.AudioVideoContentProvider.AudioVideoTable;
 import com.github.opensourcefieldlinguistics.fielddb.database.DatumContentProvider.DatumTable;
 import com.github.opensourcefieldlinguistics.fielddb.lessons.Config;
-import com.github.opensourcefieldlinguistics.fielddb.lessons.georgian.R;
+import com.github.opensourcefieldlinguistics.fielddb.lessons.R;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 

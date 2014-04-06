@@ -5,10 +5,10 @@ public class Config extends ca.ilanguage.oprime.Config {
 	public static final String ACRA_PASS = PrivateConstants.ACRA_PASS;
 	public static final String ACRA_SERVER_URL = PrivateConstants.ACRA_SERVER_URL;
 	public static final String ACRA_USER = PrivateConstants.ACRA_USER;
-	public static final String DATA_IS_ABOUT_LANGUAGE_ISO = "ka";
-	public static final String DATA_IS_ABOUT_LANGUAGE_NAME = "ქართული";
+	public static final String DATA_IS_ABOUT_LANGUAGE_ISO = "mic";
+	public static final String DATA_IS_ABOUT_LANGUAGE_NAME = "Migmaq";
 
-	public static final String DEFAULT_CORPUS = "community-georgian";
+	public static final String DEFAULT_CORPUS = "community-migmaq";
 	public static final String DEFAULT_DATA_LOGIN = PrivateConstants.DEFAULT_DATA_SERVER_URL
 			+ "/_session";
 	public static final String DEFAULT_AUTH_LOGIN_URL = PrivateConstants.DEFAULT_AUTH_LOGIN_URL;
@@ -21,5 +21,5 @@ public class Config extends ca.ilanguage.oprime.Config {
 			+ "/" + DEFAULT_CORPUS + "/_design/learnx/_view/byTag";
 
 	public static final String KEYSTORE_PASS = PrivateConstants.KEYSTORE_PASS;
-	public static final String USER_FRIENDLY_DATA_NAME = "ფრაზა";
+	public static final String USER_FRIENDLY_DATA_NAME = "Dialog";
 }

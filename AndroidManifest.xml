@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.opensourcefieldlinguistics.fielddb.lessons.georgian"
+    package="com.github.opensourcefieldlinguistics.fielddb.lessons"
     android:versionCode="3"
     android:versionName="1.102.1" >
 
@@ -78,17 +78,17 @@
 
         <provider
             android:name="com.github.opensourcefieldlinguistics.fielddb.database.DatumContentProvider"
-            android:authorities="com.github.opensourcefieldlinguistics.fielddb.datum"
+            android:authorities="com.github.opensourcefieldlinguistics.fielddb.migmaq.datum"
             android:exported="false" >
         </provider>
         <provider
             android:name="com.github.opensourcefieldlinguistics.fielddb.database.AudioVideoContentProvider"
-            android:authorities="com.github.opensourcefieldlinguistics.fielddb.audiovideo"
+            android:authorities="com.github.opensourcefieldlinguistics.fielddb.migmaq.audiovideo"
             android:exported="false" >
         </provider>
         <provider
             android:name="com.github.opensourcefieldlinguistics.fielddb.database.FieldDBUserContentProvider"
-            android:authorities="com.github.opensourcefieldlinguistics.fielddb.user"
+            android:authorities="com.github.opensourcefieldlinguistics.fielddb.migmaq.user"
             android:exported="false" >
         </provider>
     </application>
