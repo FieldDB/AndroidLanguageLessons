@@ -14,6 +14,7 @@ public class FieldDBUserContentProvider extends UserContentProvider {
 			UserTable.ANONYMOUS_PREFIX = "testing" + UserTable.ANONYMOUS_PREFIX;
 		}
 		AUTHORITY = "com.github.opensourcefieldlinguistics.fielddb."
+				+ Config.DATA_IS_ABOUT_LANGUAGE_NAME.toLowerCase() + "."
 				+ UserTable.TABLE_NAME;
 		CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + BASE_PATH);
 		sURIMatcher = new UriMatcher(UriMatcher.NO_MATCH);

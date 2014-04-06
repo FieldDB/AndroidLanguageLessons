@@ -27,6 +27,8 @@ public class AudioVideoContentProvider extends ContentProvider {
 	private static final int ITEM_ID = 20;
 
 	private static final String AUTHORITY = "com.github.opensourcefieldlinguistics.fielddb."
+			+ Config.DATA_IS_ABOUT_LANGUAGE_NAME.toLowerCase()
+			+ "."
 			+ AudioVideoTable.TABLE_NAME;
 	private static final String BASE_PATH = AudioVideoTable.TABLE_NAME + "s";
 	public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY

@@ -32,6 +32,8 @@ public class DatumContentProvider extends ContentProvider {
 	private static final int ITEM_ID = 20;
 
 	private static final String AUTHORITY = "com.github.opensourcefieldlinguistics.fielddb."
+			+ Config.DATA_IS_ABOUT_LANGUAGE_NAME.toLowerCase()
+			+ "."
 			+ DatumTable.TABLE_NAME;
 	private static final String BASE_PATH = DatumTable.TABLE_NAME + "s";
 	public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY
@@ -283,13 +285,12 @@ public class DatumContentProvider extends ContentProvider {
 		// Offline Sample data
 		private static ContentValues sampleData() {
 			ContentValues values = new ContentValues();
-			values.put(COLUMN_ID, "sample1234");
-			values.put(COLUMN_MORPHEMES, "gamardʒoba");
-			values.put(COLUMN_GLOSS, "hello");
-			values.put(COLUMN_TRANSLATION, "Hello");
-			values.put(COLUMN_ORTHOGRAPHY, "გამარჯობა");
-			values.put(COLUMN_CONTEXT, "(Standard greeting)");
-			values.put(COLUMN_IMAGE_FILES, "gamardZoba.jpg");
+			values.put(COLUMN_ID, "sample12345");
+			values.put(COLUMN_MORPHEMES, "e'sig");
+			values.put(COLUMN_GLOSS, "clam");
+			values.put(COLUMN_TRANSLATION, "Clam");
+			values.put(COLUMN_ORTHOGRAPHY, "e'sig");
+			values.put(COLUMN_CONTEXT, " ");
 			return values;
 		}
 
