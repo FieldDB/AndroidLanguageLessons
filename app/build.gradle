@@ -50,7 +50,7 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     // implementation project(':pocketsphinx-android')
-    // implementation 'cesine.educmupocketsphinx:pocketsphinx-android:v0.9-rc1-debug@aar'
+    compile 'edu.cmu.pocketsphinx:pocketsphinx-android:v0.9-rc1'
     // implementation project(':fielddb')
     compile 'com.github.fielddb:fielddb:3.17.0-rc3'
 }
