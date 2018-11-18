@@ -27,6 +27,10 @@ before_install:
   - yes | sdkmanager "platforms;android-26"
   - yes | sdkmanager "platforms;android-27"
   - android list target
+  - echo "" >> local.properties
+  - echo "keyPassword=abc" >> local.properties
+  - echo "" >> local.properties
+  - echo "storeFile=kartulispeechrecognizer" >> local.properties
   # - echo "TRAVIS is $TRAVIS"
   # - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
   # - emulator -writable-system -avd test -no-audio -no-window -use-system-libs -gpu host &
