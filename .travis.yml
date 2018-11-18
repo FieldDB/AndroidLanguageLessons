@@ -1,0 +1,37 @@
+language: android
+
+jdk:
+  - oraclejdk8
+
+android:
+  components:
+    - tools
+    - platform-tools
+    - build-tools-27.0.2
+    - android-22
+    - android-27
+
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - addon-google_apis-google-27
+
+    # Specify at least one system image,
+    # if you need to run emulator(s) during your tests
+    - sys-img-armeabi-v7a-android-22
+
+before_install:
+  - sed 's/PrivateConstantsSample/PrivateConstants/' app/src/main/java/com/github/fielddb/lessons/PrivateConstantsSample.java >  app/src/main/java/com/github/fielddb/lessons/PrivateConstants.java
+  # workaround for android-27 sha changed in dec 2017x
+  - yes | sdkmanager "platforms;android-26"
+  - yes | sdkmanager "platforms;android-27"
+  - android list target
+  # - echo "TRAVIS is $TRAVIS"
+  # - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
+  # - emulator -writable-system -avd test -no-audio -no-window -use-system-libs -gpu host &
+  # - android-wait-for-emulator
+
+
+script:
+ - ./gradlew build connectedCheck --stacktrace --debug

@@ -52,6 +52,6 @@ dependencies {
     // implementation project(':pocketsphinx-android')
     // implementation 'cesine.educmupocketsphinx:pocketsphinx-android:v0.9-rc1-debug@aar'
     // implementation project(':fielddb')
-    // implementation 'com.github.fielddb.fielddb:fielddb:3.17.0@aar'
+    compile 'com.github.fielddb:fielddb:3.17.0-rc3'
 }
 
