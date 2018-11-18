@@ -21,12 +21,6 @@ allprojects {
         maven {
             url "https://dl.bintray.com/fielddb/maven"
         }
-        maven {
-            url  "https://dl.bintray.com/cesine/educmupocketsphinx"
-        }
-//        maven {
-//            url "https://dl.bintray.com"
-//        }
         flatDir {
             dirs 'libs'
         }
